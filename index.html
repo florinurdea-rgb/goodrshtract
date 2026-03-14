@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoRush Motors Verona</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <a href="#" class="logo-wrap" aria-label="GoRush home">
+          <img class="logo" src="assets/logo.svg" alt="GoRush logo" loading="eager" decoding="async" />
+        </a>
+
+        <div class="topbar-right">
+          <button id="langToggle" class="lang-toggle" aria-label="Cambia lingua" title="Cambia lingua">
+            <span id="langIcon" class="lang-icon" aria-hidden="true">🇮🇹</span>
+            <span id="langLabel">IT</span>
+          </button>
+          <a href="tel:+393807947077" class="contact-link">0039 380 794 7077</a>
+          <a href="mailto:gorushverona@gmail.com" class="contact-link">gorushverona@gmail.com</a>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <h1 data-i18n="title">Trattori Affidabili per l’Agricoltura Moderna</h1>
+          <p data-i18n="p1">
+            GoRush Motors Verona è specializzata nella fornitura di trattori agricoli affidabili e performanti,
+            progettati per garantire efficienza, potenza e durata nel lavoro quotidiano.
+          </p>
+          <p data-i18n="p2">
+            Offriamo una gamma completa di trattori per diverse esigenze operative, dall’agricoltura professionale
+            alle aziende agricole di piccole e medie dimensioni. Ogni macchina è selezionata per offrire prestazioni
+            solide, manutenzione semplice e un eccellente rapporto qualità-prezzo.
+          </p>
+          <p data-i18n="p3">
+            Il nostro team con sede a Verona supporta i clienti in ogni fase: scelta del modello più adatto,
+            consulenza tecnica e assistenza dedicata.
+          </p>
+          <p data-i18n="p4">
+            Con GoRush Motors scegli una soluzione concreta per lavorare meglio, aumentare la produttività e investire
+            in macchine affidabili nel tempo.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#products" data-i18n="products">I NOSTRI PRODOTTI</a>
+            <a
+              class="btn btn-secondary"
+              href="https://drive.google.com/file/d/16Nc5cF9_M7RRIoDlW_XrbFl-xxdMsyf_/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="brochure"
+              >Scarica brochure prodotti</a
+            >
+          </div>
+        </div>
+
+        <figure class="hero-media" aria-label="Immagine hero trattore">
+          <img src="assets/hero.svg" alt="Trattore agricolo moderno rosso" loading="eager" decoding="async" />
+          <figcaption id="mediaBadge" class="media-badge" aria-hidden="true">🇮🇹</figcaption>
+        </figure>
+      </section>
+
+      <div class="section-divider" aria-hidden="true"></div>
+
+      <section id="products" class="products-grid" aria-label="Prodotti">
+        <article class="product-pill"><span class="bullet"></span><span data-i18n="product1">TRATTORI STANDARD</span></article>
+        <article class="product-pill"><span class="bullet"></span><span data-i18n="product2">TRATTORI PERSONALIZZATI</span></article>
+        <article class="product-pill"><span class="bullet"></span><span data-i18n="product3">ATTREZZATURE & ACCESSORI</span></article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
