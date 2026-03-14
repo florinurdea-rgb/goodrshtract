@@ -15,6 +15,7 @@ const translations = {
     product1: "TRATTORI STANDARD",
     product2: "TRATTORI PERSONALIZZATI",
     product3: "ATTREZZATURE & ACCESSORI"
+    brochure: "Scarica brochure prodotti"
   },
   en: {
     lang: "en",
@@ -32,6 +33,7 @@ const translations = {
     product1: "STANDARD TRACTORS",
     product2: "CUSTOMIZED TRACTORS",
     product3: "EQUIPMENT & ACCESSORIES"
+    brochure: "Download product brochure"
   }
 };
 
