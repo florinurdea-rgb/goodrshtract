@@ -401,3 +401,9 @@ html, body {
   display: block;
   border-radius: 10px;
 }
+
+
+.modal-option-link {
+  display: block;
+  text-decoration: none;
+}
