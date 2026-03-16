@@ -237,3 +237,11 @@ html, body {
     aspect-ratio: 16 / 8;
   }
 }
+
+
+.footer-line {
+  margin-top: 1.25rem;
+  padding: 0.8rem 0;
+  font-size: 0.9rem;
+  color: #121317;
+}
