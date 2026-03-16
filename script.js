@@ -8,7 +8,7 @@ const translations = {
     p3: "Il nostro team con sede a Verona supporta i clienti in ogni fase: scelta del modello più adatto, consulenza tecnica e assistenza dedicata.",
     p4: "Con GoRush Motors scegli una soluzione concreta per lavorare meglio, aumentare la produttività e investire in macchine affidabili nel tempo.",
     products: "OUR PRODUCTS",
-    brochure: "Download product brochure",
+    brochure: "Scarica brochure prodotti",
     card1: "TRATTORI STANDARD",
     card2: "TRATTORI PERSONALIZZATI",
     card3: "ATTREZZATURE & ACCESSORI",

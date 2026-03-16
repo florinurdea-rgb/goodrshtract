@@ -49,6 +49,12 @@ html, body {
   cursor: pointer;
 }
 
+
+#langIcon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
 .contact {
   color: #222;
   text-decoration: none;
@@ -139,13 +145,26 @@ html, body {
 }
 
 .card {
-  border: 1px solid #d7d7dc;
+  border: 1px solid #7f0d16;
   border-radius: 10px;
-  padding: 1rem 0.8rem;
-  text-align: center;
+  padding: 1.25rem 1rem;
   font-weight: 700;
-  color: #121317;
-  background: #fff;
+  color: #fff;
+  background: #8f1019;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.card-arrow {
+  position: absolute;
+  right: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-weight: 800;
 }
 
 @media (max-width: 960px) {
@@ -174,7 +193,13 @@ html, body {
     margin-top: 1rem;
   }
 
-  .contact {
+  
+#langIcon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.contact {
     font-size: 0.86rem;
   }
 
@@ -197,6 +222,11 @@ html, body {
     text-align: center;
     padding: 0.86rem 1rem;
     font-size: 0.94rem;
+  }
+
+  .card {
+    padding-top: 1.15rem;
+    padding-bottom: 1.15rem;
   }
 
   .media {
