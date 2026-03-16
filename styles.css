@@ -1,5 +1,5 @@
 :root {
-  --bg: #f1f1f3;
+  --bg: #ffffff;
   --text: #141414;
   --muted: #2f2f32;
 }
@@ -28,6 +28,7 @@ html, body {
 }
 
 .logo {
+  background: transparent;
   width: clamp(220px, 29vw, 390px);
   height: auto;
   display: block;
