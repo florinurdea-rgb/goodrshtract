@@ -376,3 +376,28 @@ html, body {
   }
 
 }
+
+.card-link {
+  text-decoration: none;
+}
+
+.accessories-section {
+  margin-top: 1.2rem;
+}
+
+.accessories-title {
+  margin: 0 0 1rem;
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+}
+
+.accessories-stack {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.accessories-stack img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
