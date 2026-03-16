@@ -102,6 +102,7 @@ const langIcon = document.getElementById("langIcon");
 const mediaBadge = document.getElementById("mediaBadge");
 const modals = document.querySelectorAll(".modal");
 const modalOpeners = document.querySelectorAll("[data-modal-open]");
+const accessoriesCard = document.getElementById("accessoriesCard");
 let currentLang = "it";
 let lastTrigger = null;
 
@@ -166,6 +167,12 @@ document.addEventListener("keydown", (event) => {
   const openedModal = [...modals].find((modal) => modal.classList.contains("is-open"));
   if (openedModal) closeModal(openedModal);
 });
+
+if (accessoriesCard) {
+  accessoriesCard.addEventListener("click", () => {
+    window.location.href = "accessories.html";
+  });
+}
 
 langToggle.addEventListener("click", () => {
   currentLang = currentLang === "it" ? "en" : "it";
