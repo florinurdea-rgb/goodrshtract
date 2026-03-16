@@ -130,6 +130,24 @@ html, body {
   font-size: 0.95rem;
 }
 
+
+.cards {
+  margin-top: 1.35rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.card {
+  border: 1px solid #d7d7dc;
+  border-radius: 10px;
+  padding: 1rem 0.8rem;
+  text-align: center;
+  font-weight: 700;
+  color: #121317;
+  background: #fff;
+}
+
 @media (max-width: 960px) {
   .hero {
     grid-template-columns: 1fr;
@@ -140,7 +158,21 @@ html, body {
 @media (max-width: 600px) {
   .page { padding-top: 0.8rem; }
 
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .media { order: 1; }
+  .copy { order: 2; }
+
   .top-right { gap: 0.65rem; }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+    margin-top: 1rem;
+  }
 
   .contact {
     font-size: 0.86rem;

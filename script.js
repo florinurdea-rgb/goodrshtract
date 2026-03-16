@@ -9,6 +9,9 @@ const translations = {
     p4: "Con GoRush Motors scegli una soluzione concreta per lavorare meglio, aumentare la produttività e investire in macchine affidabili nel tempo.",
     products: "OUR PRODUCTS",
     brochure: "Download product brochure",
+    card1: "TRATTORI STANDARD",
+    card2: "TRATTORI PERSONALIZZATI",
+    card3: "ATTREZZATURE & ACCESSORI",
     toggleAria: "Cambia lingua"
   },
   en: {
@@ -21,6 +24,9 @@ const translations = {
     p4: "With GoRush Motors, you choose a practical solution to work better, increase productivity, and invest in reliable machines over time.",
     products: "OUR PRODUCTS",
     brochure: "Download product brochure",
+    card1: "STANDARD TRACTORS",
+    card2: "CUSTOMIZED TRACTORS",
+    card3: "EQUIPMENT & ACCESSORIES",
     toggleAria: "Switch language"
   }
 };
