@@ -43,13 +43,111 @@
       </section>
 
       <section class="cards" aria-label="Categorie prodotti">
-        <article class="card"><span data-i18n="card1">TRATTORI STANDARD</span><span class="card-arrow" aria-hidden="true">&gt;</span></article>
-        <article class="card"><span data-i18n="card2">TRATTORI PERSONALIZZATI</span><span class="card-arrow" aria-hidden="true">&gt;</span></article>
-        <article class="card"><span data-i18n="card3">ATTREZZATURE & ACCESSORI</span><span class="card-arrow" aria-hidden="true">&gt;</span></article>
+        <button class="card" type="button" data-modal-open="modalStandard" aria-haspopup="dialog" aria-controls="modalStandard">
+          <span data-i18n="card1">TRATTORI STANDARD</span><span class="card-arrow" aria-hidden="true">&gt;</span>
+        </button>
+        <button class="card" type="button" data-modal-open="modalCustomized" aria-haspopup="dialog" aria-controls="modalCustomized">
+          <span data-i18n="card2">TRATTORI PERSONALIZZATI</span><span class="card-arrow" aria-hidden="true">&gt;</span>
+        </button>
+        <button class="card" type="button" data-modal-open="modalEquipment" aria-haspopup="dialog" aria-controls="modalEquipment">
+          <span data-i18n="card3">ATTREZZATURE & ACCESSORI</span><span class="card-arrow" aria-hidden="true">&gt;</span>
+        </button>
       </section>
 
       <footer class="footer-line">GO RUSH SRL | VIA ANTONIO MEUCCI 68 | 36057. VERONA | PIVA 04633120243</footer>
     </main>
+
+    <div class="modal" id="modalStandard" aria-hidden="true">
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalStandardTitle">
+        <button class="modal-close" type="button" data-modal-close data-i18n-aria-label="closeModal" aria-label="Chiudi">×</button>
+        <h2 id="modalStandardTitle" class="modal-title" data-i18n="modalStandardTitle">Modelli di Trattori Standard</h2>
+        <p class="modal-label" data-i18n="selectPower">Seleziona potenza</p>
+        <div class="power-grid">
+          <div class="power-pill">25-50 HP</div>
+          <div class="power-pill">50-70 HP</div>
+          <div class="power-pill">70-100 HP</div>
+          <div class="power-pill">90-130 HP</div>
+          <div class="power-pill">130-180 HP</div>
+          <div class="power-pill">180-260 HP</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modalCustomized" aria-hidden="true">
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalCustomizedTitle">
+        <button class="modal-close" type="button" data-modal-close data-i18n-aria-label="closeModal" aria-label="Chiudi">×</button>
+        <h2 id="modalCustomizedTitle" class="modal-title" data-i18n="modalCustomizedTitle">Modelli di Trattori Personalizzati</h2>
+
+        <div class="custom-list">
+          <article class="custom-item">
+            <span class="custom-code">2A</span>
+            <div>
+              <h3 data-i18n="customA">Trattore per serre e frutteti</h3>
+              <p data-i18n="customAEn">Garden & Orchard Tractor</p>
+            </div>
+          </article>
+          <article class="custom-item">
+            <span class="custom-code">2B</span>
+            <div>
+              <h3 data-i18n="customB">Modello emissioni Euro V</h3>
+              <p data-i18n="customBEn">Euro V Emission Model</p>
+            </div>
+          </article>
+          <article class="custom-item">
+            <span class="custom-code">2C</span>
+            <div>
+              <h3 data-i18n="customC">Trattore con pneumatici industriali</h3>
+              <p data-i18n="customCEn">Industrial Tire Model</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modalEquipment" aria-hidden="true">
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalEquipmentTitle">
+        <button class="modal-close" type="button" data-modal-close data-i18n-aria-label="closeModal" aria-label="Chiudi">×</button>
+        <h2 id="modalEquipmentTitle" class="modal-title" data-i18n="modalEquipmentTitle">Accessori & Attrezzature Agricole</h2>
+
+        <div class="equipment-columns">
+          <section class="equipment-group">
+            <h3 data-i18n="equipmentAccessoriesTitle">A. Accessori</h3>
+            <ul class="equipment-list">
+              <li data-i18n="equip1">Caricatore Frontale / Front End Loader</li>
+              <li data-i18n="equip2">Terna / Backhoe</li>
+              <li data-i18n="equip3">Forca per Pallet / Pallet Fork</li>
+              <li data-i18n="equip4">Pinza per Tronchi / Log Grab</li>
+              <li data-i18n="equip5">Apripista / Bulldozer</li>
+              <li data-i18n="equip6">Forca per Fieno / Hay Fork</li>
+              <li data-i18n="equip7">Pinza per Balle / Bale Clip</li>
+            </ul>
+          </section>
+
+          <section class="equipment-group">
+            <h3 data-i18n="equipmentImplementsTitle">B. Attrezzature</h3>
+            <ul class="equipment-list">
+              <li data-i18n="equip8">Aratro a Dischi / Disc Plough</li>
+              <li data-i18n="equip9">Erpice a Dischi / Disc Harrow</li>
+              <li data-i18n="equip10">Falciatrice a Lame / Slasher Mower</li>
+              <li data-i18n="equip11">Trinciatrice / Flail Mower</li>
+              <li data-i18n="equip12">Imballatrice / Baler</li>
+              <li data-i18n="equip13">Falciatrice a Dischi / Disc Mower</li>
+              <li data-i18n="equip14">Motozappa Rotativa / Rotary Tiller</li>
+              <li data-i18n="equip15">Aratro a Vomere / Furrow Plow</li>
+              <li data-i18n="equip16">Aratro Reversibile / Flip Plow</li>
+              <li data-i18n="equip17">Coltivatore / Cultivator</li>
+              <li data-i18n="equip18">Ripuntatore / Subsoiler</li>
+              <li data-i18n="equip19">Rimorchio Ribaltabile / Dump Trailer</li>
+              <li data-i18n="equip20">Seminatrice Pneumatica / Pneumatic Seeder</li>
+              <li data-i18n="equip21">Atomizzatore / Blown Sprayer</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
