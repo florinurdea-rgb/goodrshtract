@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoRush Motors Verona</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <img class="logo" src="assets/LogoGoRush.png" alt="GoRush logo" loading="eager" decoding="async" />
+
+        <div class="top-right">
+          <button id="langToggle" class="lang-toggle" aria-label="Cambia lingua" title="Cambia lingua">
+            <span id="langIcon">🇮🇹</span>
+          </button>
+          <a class="contact" href="tel:+393807947077">0039 380 794 7077</a>
+          <a class="contact" href="mailto:gorushverona@gmail.com">gorushverona@gmail.com</a>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="copy">
+          <h1 data-i18n="title">Trattori Affidabili per l’Agricoltura Moderna</h1>
+          <p data-i18n="p1">GoRush Motors Verona è specializzata nella fornitura di trattori agricoli affidabili e performanti, progettati per garantire efficienza, potenza e durata nel lavoro quotidiano.</p>
+          <p data-i18n="p2">Offriamo una gamma completa di trattori per diverse esigenze operative, dall’agricoltura professionale alle aziende agricole di piccole e medie dimensioni. Ogni macchina è selezionata per offrire prestazioni solide, manutenzione semplice e un eccellente rapporto qualità-prezzo.</p>
+          <p data-i18n="p3">Il nostro team con sede a Verona supporta i clienti in ogni fase: scelta del modello più adatto, consulenza tecnica e assistenza dedicata.</p>
+          <p data-i18n="p4">Con GoRush Motors scegli una soluzione concreta per lavorare meglio, aumentare la produttività e investire in macchine affidabili nel tempo.</p>
+
+          <div class="ctas">
+            <a class="btn btn-secondary" href="https://drive.google.com/file/d/16Nc5cF9_M7RRIoDlW_XrbFl-xxdMsyf_/view?usp=sharing" target="_blank" rel="noopener noreferrer"><span data-i18n="brochure">Download product brochure</span><span class="pdf-icon" aria-hidden="true">📄</span></a>
+          </div>
+        </div>
+
+        <figure class="media">
+          <img src="assets/HeroImageTractorGoRush.png" alt="Trattore GoRush" loading="eager" decoding="async" />
+          <figcaption id="mediaBadge" class="badge">🇮🇹</figcaption>
+        </figure>
+      </section>
+
+      <section class="cards" aria-label="Categorie prodotti">
+        <button class="card" type="button" data-modal-open="modalStandard" aria-haspopup="dialog" aria-controls="modalStandard">
+          <span data-i18n="card1">TRATTORI STANDARD</span><span class="card-arrow" aria-hidden="true">&gt;</span>
+        </button>
+        <button class="card" type="button" data-modal-open="modalCustomized" aria-haspopup="dialog" aria-controls="modalCustomized">
+          <span data-i18n="card2">TRATTORI PERSONALIZZATI</span><span class="card-arrow" aria-hidden="true">&gt;</span>
+        </button>
+        <article class="card">
+          <span data-i18n="card3">ATTREZZATURE & ACCESSORI</span><span class="card-arrow" aria-hidden="true">&gt;</span>
+        </article>
+      </section>
+
+      <footer class="footer-line">GO RUSH SRL | VIA ANTONIO MEUCCI 68 | 36057. VERONA | PIVA 04633120243</footer>
+    </main>
+
+    <div class="modal" id="modalStandard" aria-hidden="true">
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalStandardTitle">
+        <button class="modal-close" type="button" data-modal-close data-i18n-aria-label="closeModal" aria-label="Chiudi">×</button>
+        <h2 id="modalStandardTitle" class="modal-title" data-i18n="modalStandardTitle">Modelli di Trattori Standard</h2>
+        <p class="modal-label" data-i18n="selectPower">Seleziona potenza</p>
+        <div class="modal-options">
+          <div class="modal-option">25-50 HP</div>
+          <div class="modal-option">50-70 HP</div>
+          <div class="modal-option">70-100 HP</div>
+          <div class="modal-option">90-130 HP</div>
+          <div class="modal-option">130-180 HP</div>
+          <div class="modal-option">180-260 HP</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modalCustomized" aria-hidden="true">
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalCustomizedTitle">
+        <button class="modal-close" type="button" data-modal-close data-i18n-aria-label="closeModal" aria-label="Chiudi">×</button>
+        <h2 id="modalCustomizedTitle" class="modal-title" data-i18n="modalCustomizedTitle">Modelli di Trattori Personalizzati</h2>
+
+        <div class="modal-options modal-options-stacked">
+          <article class="modal-option modal-option-stacked">
+            <h3 data-i18n="customA">Trattore per serre e frutteti</h3>
+            <p data-i18n="customAEn">Garden & Orchard Tractor</p>
+          </article>
+          <article class="modal-option modal-option-stacked">
+            <h3 data-i18n="customB">Modello emissioni Euro V</h3>
+            <p data-i18n="customBEn">Euro V Emission Model</p>
+          </article>
+          <article class="modal-option modal-option-stacked">
+            <h3 data-i18n="customC">Trattore con pneumatici industriali</h3>
+            <p data-i18n="customCEn">Industrial Tire Model</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
