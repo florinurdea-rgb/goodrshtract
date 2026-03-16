@@ -1,0 +1,22 @@
+<svg width="920" height="275" viewBox="0 0 920 275" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff3b3b"/>
+      <stop offset="1" stop-color="#b40000"/>
+    </linearGradient>
+    <linearGradient id="gSteel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8dbe0"/>
+      <stop offset="1" stop-color="#70757d"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="120" cy="118" r="78" fill="none" stroke="url(#gSteel)" stroke-width="19"/>
+  <path d="M55 124H143" stroke="url(#gRed)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M130 62C204 36 307 24 419 30" stroke="url(#gRed)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M225 226C392 183 565 169 725 188" stroke="url(#gRed)" stroke-width="10" stroke-linecap="round" opacity="0.95"/>
+
+  <text x="168" y="172" font-size="138" font-style="italic" font-weight="800" font-family="Inter, Arial, sans-serif" fill="url(#gSteel)">Go</text>
+  <text x="340" y="172" font-size="138" font-style="italic" font-weight="800" font-family="Inter, Arial, sans-serif" fill="url(#gRed)">Rush</text>
+  <path d="M710 120H885" stroke="url(#gRed)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M696 144H850" stroke="url(#gRed)" stroke-width="8" stroke-linecap="round" opacity="0.9"/>
+</svg>
