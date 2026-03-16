@@ -1,0 +1,44 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17181d"/>
+      <stop offset="1" stop-color="#050507"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff3b30"/>
+      <stop offset="1" stop-color="#b60000"/>
+    </linearGradient>
+    <radialGradient id="wheel" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.5 0.45) scale(0.6)">
+      <stop stop-color="#414751"/>
+      <stop offset="1" stop-color="#0f1114"/>
+    </radialGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" rx="38" fill="url(#bg)"/>
+  <path d="M0 680L1200 260" stroke="url(#red)" stroke-width="32" opacity="0.9"/>
+  <path d="M-10 782C302 718 617 712 1210 854" stroke="#ff3b30" stroke-width="24" opacity="0.8"/>
+  <text x="84" y="210" fill="#ffffff" fill-opacity="0.08" font-family="Inter, Arial, sans-serif" font-size="190" font-style="italic" font-weight="800">GoRush</text>
+
+  <g filter="url(#shadow)">
+    <circle cx="385" cy="660" r="140" fill="url(#wheel)"/>
+    <circle cx="385" cy="660" r="72" fill="#1f2329" stroke="#b5bbc5" stroke-width="12"/>
+
+    <circle cx="845" cy="645" r="115" fill="url(#wheel)"/>
+    <circle cx="845" cy="645" r="58" fill="#1f2329" stroke="#b5bbc5" stroke-width="10"/>
+
+    <rect x="328" y="388" width="608" height="168" rx="28" fill="url(#red)"/>
+    <rect x="335" y="545" width="580" height="68" rx="22" fill="#15171c"/>
+    <path d="M432 363L665 363L748 430L432 430V363Z" fill="#2b2f36"/>
+    <rect x="462" y="388" width="168" height="98" rx="12" fill="#8897aa" fill-opacity="0.34"/>
+    <rect x="646" y="388" width="116" height="98" rx="12" fill="#8897aa" fill-opacity="0.3"/>
+    <rect x="768" y="300" width="42" height="132" rx="10" fill="#0f1114"/>
+    <rect x="796" y="300" width="25" height="132" rx="8" fill="#282d35"/>
+
+    <rect x="367" y="448" width="118" height="22" rx="9" fill="#121318"/>
+    <rect x="498" y="448" width="168" height="22" rx="9" fill="#121318"/>
+    <text x="698" y="492" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">GoRush</text>
+  </g>
+</svg>
