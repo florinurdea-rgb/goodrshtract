@@ -16,7 +16,10 @@
       </header>
 
       <section class="accessories-section" aria-label="Trattore 50-70 HP gallery">
-        <h1 class="accessories-title">Trattore 50-70 HP</h1>
+        <div class="page-title-row">
+          <a class="page-back" href="index.html" onclick="if (window.history.length > 1) { window.history.back(); return false; }" aria-label="Go back">&lt;</a>
+          <h1 class="accessories-title">Trattore 50-70 HP</h1>
+        </div>
         <div class="accessories-stack">
           <img src="assets/Tractor - 50-70HP 1.png" alt="Trattore 50-70 HP 1" loading="lazy" decoding="async" />
           <img src="assets/Tractor - 50-70HP 2.png" alt="Trattore 50-70 HP 2" loading="lazy" decoding="async" />
@@ -27,5 +30,8 @@
         </div>
       </section>
     </main>
+
+    <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top">↑</button>
+    <script src="secondary-pages.js"></script>
   </body>
 </html>
